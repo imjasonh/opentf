@@ -670,7 +670,7 @@ func (m *Meta) confirm(opts *tofu.InputOpts) (bool, error) {
 		switch strings.ToLower(v) {
 		case "no":
 			return false, nil
-		case "yes":
+		case "yes", "yolo":
 			return true, nil
 		}
 	}
